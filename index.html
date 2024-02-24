@@ -15,13 +15,19 @@
   <body>
     <div class="main">
       <header>
-        <form class="city">
-          <input type="search" placeholder="Enter a city" required />
+        <form class="city" id="city-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search"
+            id="search"
+          />
           <input type="submit" value="Search" class="submit" />
         </form>
         <main>
           <div class="weather"></div>
-          <h1>Paris</h1>
+          <h1 class="cities" id="cities">Paris</h1>
           <p>
             Monday 18:47, moderate rain
             <br />
@@ -30,7 +36,6 @@
 
           <div>24°C</div>
         </main>
-        </div>
       </header>
     </div>
     <h1>Welcome welcome</h1>
